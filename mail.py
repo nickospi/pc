@@ -1,9 +1,6 @@
 import smtplib
-from email.MIMEMultipart import MIMEMultipart
-from email.MIMEBase import MIMEBase
-from email.MIMEText import MIMEText
-from email.Utils import COMMASPACE, formatdate
-from email import Encoders
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
 from email.header import Header
 import os
